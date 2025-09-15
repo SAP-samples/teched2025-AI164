@@ -145,7 +145,7 @@ client_id: <client id from the service key>
         "destination": "SHAREPOINT_API",
         "sharePoint": {
             "site": {
-                "name": "xxx",
+                "name": "210637",
                 "includePaths": [
                  "*/teched"
                 ]
