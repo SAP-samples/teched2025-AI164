@@ -1,0 +1,109 @@
+{
+  "name": "DocumentGrounding",
+  "version": "1",
+  "items": [
+    {
+      "type": "http",
+      "name": "Create Pipeline",
+      "seq": 4,
+      "request": {
+        "url": "https://mtls.rage.c-7e3b918.kyma.ondemand.com/pipeline/api/v1/pipeline",
+        "method": "POST",
+        "headers": [],
+        "params": [],
+        "body": {
+          "mode": "json",
+          "json": "{\n  \"type\": \"MSSharePoint\",\n  \"configuration\": {\n    \"destination\": \"SHAREPOINT_API\",\n    \"sharePoint\": {\n      \"site\": {\n        \"name\": \"210637\",\n        \"includePaths\": [\n          \"/teched\"\n        ]\n      }\n    }\n  }\n}",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "bearer",
+          "bearer": {
+            "token": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "http",
+      "name": "Get Pipelines",
+      "seq": 3,
+      "request": {
+        "url": "https://mtls.rage.c-7e3b918.kyma.ondemand.com/pipeline/api/v1/pipeline",
+        "method": "GET",
+        "headers": [],
+        "params": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "bearer",
+          "bearer": {
+            "token": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "http",
+      "name": "Get Token",
+      "seq": 2,
+      "request": {
+        "url": "https://a8hrq53ve.accounts.ondemand.com/oauth2/token?grant_type=client_credentials&client_id=0dfb6042-a5c2-4b87-b4ce-95b166eb9e1c",
+        "method": "POST",
+        "headers": [],
+        "params": [
+          {
+            "name": "grant_type",
+            "value": "client_credentials",
+            "type": "query",
+            "enabled": true
+          },
+          {
+            "name": "client_id",
+            "value": "0dfb6042-a5c2-4b87-b4ce-95b166eb9e1c",
+            "type": "query",
+            "enabled": true
+          }
+        ],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    }
+  ],
+  "environments": [],
+  "brunoConfig": {
+    "version": "1",
+    "name": "DocumentGrounding",
+    "type": "collection",
+    "ignore": [
+      "node_modules",
+      ".git"
+    ],
+    "clientCertificates": {
+      "enabled": true,
+      "certs": []
+    }
+  }
+}

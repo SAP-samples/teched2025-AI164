@@ -108,7 +108,7 @@ In this step we will use Bruno to import the role collection for the Data Ingest
 1. Select the three dots next to the Bruno icon on the left side of the screen. Click on **Import Collection**. 
 <br>![](/exercises/ex3/images/11_01_bruno_setup.png)
 
-2. Choose **Bruno Collection** and select the file **dg_collection.json** from your local folder.
+2. Choose **Bruno Collection** and select the file [bruno_collection_document_grounding.json](./bruno_collection_document_grounding.json) from this GitHub repository.
 <br>![](/exercises/ex3/images/11_02_bruno_setup.png)
 
 ## Step 5: Execute API Calls
