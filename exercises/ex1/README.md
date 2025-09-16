@@ -1,16 +1,16 @@
-# Excercise 1: Prepare the BTP Subaccount
+# Exercise 1: Prepare the BTP Subaccount
 
-In this exercise, you will learn how to prepare a subaccount to subsequently setup Joule and Document Grounding. After completing these steps you will have a Subaccount with all the needed entitlements, you established trust to a IAS tenant and are ready to execute the Joule Booster.
+In this exercise, you will learn how to prepare a Subaccount to subsequently setup Joule and Document Grounding. After completing these steps you will have a Subaccount with all the needed entitlements, you established trust to a IAS tenant and are ready to execute the Joule Booster.
 
 ## <a name="step1"></a>Step 1: Log in to BTP
 
-For the live excercise at TechEd 2025, we provide a BTP Landscape to try on. The first step is to successfully login via the custom platform IDP following this link:
+For the live exercise at TechEd 2025, we provide a BTP Landscape to try on. The first step is to successfully log in via the custom platform IDP following this link:
 
 https://emea.cockpit.btp.cloud.sap/cockpit/?idp=a8hrq53ve.accounts.ondemand.com#/globalaccount/fd5a03c5-21bc-4ed2-ba61-62e521144b11
 
 When first logging in you will be redirected to a IAS login screen similar to this:
 
-1. Login with the provided user and password shown in the room.  
+1. Log in using the username and password provided in the workshop room.
 
 <br>![](/exercises/ex1/images/ias_login.png)
 
@@ -21,14 +21,14 @@ When first logging in you will be redirected to a IAS login screen similar to th
 
 ## <a name="step2"></a>Step 2: Create a Subaccount
 
-Next up, we want to create a Subaccout. For that on the Global Account > Account Explorer:
+Next up, we want to create a Subaccount. For that on the Global Account > Account Explorer:
 
 1. Click Create.  
    Click the blue create button and subsequently choose "Subaccount".  
    <br>![](/exercises/ex1/images/02_01_btp_subaccount_create_detail.png)
 
 2. In the Subaccount Create modal:  
-   - Enter a name for your subaccount. Please follow the naming convention AI164-XXX, where XXX is your code used to login.  
+   - Enter a name for your Subaccount. Please follow the naming convention AI164-XXX, where XXX is your code used to log in.  
    - Select the Data Center: Europe (Frankfurt) - AWS 
    - Click Create.  
    <br>![](/exercises/ex1/images/02_02_btp_subaccount_create_detail.png)
@@ -54,7 +54,7 @@ Next up, we want to assign the Entitlement for Joule and Document Grounding to t
 4. In the overview of the entitlements for your specific Subaccount, click "Edit".
    <br>![](/exercises/ex1/images/05_05_btp_subaccount_entity_assignements.png)
 
-5. Hit "Add Service Plan".
+5. Click "Add Service Plan".
    <br>![](/exercises/ex1/images/05_06_btp_subaccount_entity_assignements.png)
 
 6. It will open a context menu,In the context menu to add services and their service plans:  
@@ -67,10 +67,10 @@ Next up, we want to assign the Entitlement for Joule and Document Grounding to t
    - Search for "Document Grounding".  
    - Select the service "Document Grounding".  
    - Mark the checkbox for the available "data-manager" plan.  
-   - Click "Add 2 Service Plans" to exit out of the menu
+   - Click "Add 2 Service Plans" to exit the menu
      <br>![](/exercises/ex1/images/05_08_btp_subaccount_entity_assignements.png)
 
-8. Hit "Save". Wait until it is successfully saved. This can take 30+ seconds.
+8. Click "Save" and wait for the changes to be saved. This may take over 30 seconds.
    <br>![](/exercises/ex1/images/05_09_btp_subaccount_entity_assignements.png)
    
 

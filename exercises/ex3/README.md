@@ -1,6 +1,6 @@
-# Excercise 3: Set Up Document Grounding
+# Exercise 3: Set Up Document Grounding
 
-In this exercise, you will learn how to setup the Grounding Service and the data repository integration. Once this steps are completed, you can ingest your content and start testing Joule.
+In this exercise, you will learn how to setup the Grounding Service and the data repository integration. Once these steps are completed, you can ingest your content and start testing Joule.
 
 
 ## <a name="step1"></a>Step 1: Create Destination
@@ -9,21 +9,21 @@ Navigate to the BTP Subaccount Account Level.
 
 Navigate to **Global Subaccount Level > Destinations**.
 
-1. Create a new destination.
+1. Create a new Destination.
 <br>![](/exercises/ex3/images/08_01_destination_creation.png)
 
 2. Create the new destination from a file.
 <br>![](/exercises/ex3/images/08_02_destination_creation.png)
 
-3. Select the **sharepoint_destination.json** from your local folder and create the destination.
+3. Select the **sharepoint_destination.json** from your local folder and create the Destination.
 <br>![](/exercises/ex3/images/08_03_destination_creation.png)
 
-4. The destination needs to be populated with the following fields: Name, URL, Client ID, Client Secret, Token Service URL.
+4. The Destination needs to be populated with the following fields: Name, URL, Client ID, Client Secret, Token Service URL.
 <br>![](/exercises/ex3/images/08_04_destination_creation.png)
 
 ## <a name="step2"></a>Step 2: Create Document Grounding Service
 
-Next, we want to subscribe to the Document Grounding Service and create a service key. We can do that by following these steps:
+Next, we want to subscribe to the Document Grounding Service and create a Service Key. We can do that by following these steps:
 
 1. Navigate to **Global Subaccount Level > Instances and Subscriptions** and create a new instance.
 
@@ -35,10 +35,10 @@ Next, we want to subscribe to the Document Grounding Service and create a servic
 3. Clickt **Next** on the parameters section.
 <br>![](/exercises/ex3/images/13_03_btp_service_creation.png)
 
-4. Create the service instance.
+4. Create the Service instance.
 <br>![](/exercises/ex3/images/13_04_btp_service_creation.png)
 
-5. Now we need to create the service key. Click on the three dots on the instance and select "Create Service Binding".
+5. Now we need to create the Service Key. Click on the three dots on the instance and select "Create Service Binding".
 <br>![](/exercises/ex3/images/13_05_btp_service_creation.png)
 
 6. Give a name to the key (here: "key") and create the binding.
@@ -50,13 +50,13 @@ Next, we want to subscribe to the Document Grounding Service and create a servic
 8. As part of the next step, we need to create a new subscription to the SAP Cloud Identity Services. Click on **Create** and select **Cloud Identity Services** with the application plan. For the name, we go with "documentgroundingcis".
 <br>![](/exercises/ex3/images/13_09_btp_service_creation.png)
 
-9. In the parameters section, enter the following values, where we put in the name of the Document Grounding service instance ("documentgrounding") from the second step of this exercise. Then, click on **create**.
+9. In the parameters section, enter the following values, where we put in the name of the Document Grounding Service instance ("documentgrounding") from the second step of this exercise. Then, click on **create**.
 <br>![](/exercises/ex3/images/13_10_btp_service_creation.png)
 
-10. Again, we need to create a service key for the Cloud Identity Services subscription. Select the three dots and then **Create Service Binding**.
+10. Again, we need to create a Service Key for the Cloud Identity Services subscription. Select the three dots and then **Create Service Binding**.
 <br>![](/exercises/ex3/images/13_12_btp_service_creation.png)
 
-11. Choose a name for the key (here: "key") and specify the followig parameters in JSON format:
+11. Choose a name for the key (here: "key") and specify the following parameters in JSON format:
 ```   
 {
     "credential-type": "X509_GENERATED",
@@ -66,7 +66,7 @@ Next, we want to subscribe to the Document Grounding Service and create a servic
 ```
 <br>![](/exercises/ex3/images/13_13_btp_service_creation.png)
 
-12. Click on the **documentgroundingcis** instance and download the service key.
+12. Click on the **documentgroundingcis** instance and download the Service Key.
 <br>![](/exercises/ex3/images/13_14_btp_service_creation.png)
 
 13. Make sure that the key has a "clientid" and a "certificate" and start the download.
@@ -79,7 +79,7 @@ Next, we want to subscribe to the Document Grounding Service and create a servic
 
 In this step, we will use Visual Studio Code to make changes on the certificate file so that we can properly use it inside Bruno in Step 5.
 
-1. Open the folder with the service key JSON files in VS Code
+1. Open the folder with the Service Key JSON files in VS Code
 <br>![](/exercises/ex3/images/10_01_pipeline_creation.png)
 
 2. Open the **document_grounding_cis_key.json**. Then, Copy the value after "key". Please also make note of the "authorization_endpoint" and the "clientid" as we will need it for subsequent tasks in step 5.
@@ -88,7 +88,7 @@ In this step, we will use Visual Studio Code to make changes on the certificate 
 3, Create a new file **document_grounding.key** and paste the value from the previous picture.
 <br>![](/exercises/ex3/images/10_03_pipeline_creation.png)
 
-4. Type ***STR+F*** and expand (">") for the find and replace section. Replace the "\n" value with a line break by typing **Shift + Return**. Click on the "Replace All" button to finish this task.  
+4. Press ***CTRL+F*** and expand (">") the find-and-replace section. Replace the "\n" value with a line break by typing **Shift + Return**. Click "Replace All" to finish this task.  
 <br>![](/exercises/ex3/images/10_04_pipeline_creation.png)
 
 5. This is how the key file should look in the end. 
@@ -113,7 +113,7 @@ In this step we will use Bruno to import the role collection for the Data Ingest
 
 ## <a name="step5"></a>Step 5: Execute API Calls
 
-Now, we will use the collection in Bruno to create the the pipelines for the data ingestion.
+Now, we will use the collection in Bruno to create the pipelines for the data ingestion.
 
 1. Select the three dots next to the name of the API collection ("DocumentGrounding) and click on **Settings**.
 <br>![](/exercises/ex3/images/12_01_01_bruno_api.png)
@@ -137,7 +137,7 @@ client_id: <client id from the service key>
 6. Now click on the API endpoint **Create Pipeline**. Go to the **Auth** section and paste the access token there.
 <br>![](/exercises/ex3/images/12_06_bruno_api.png)
 
-7. For the URL of the Data Ingestion API, we use the "uri" value of the Document Grounding service key in step 2.7 and add the path "pipeline/api/v1/pipeline". We need to pass the following parameters as part of the Body:
+7. For the URL of the Data Ingestion API, we use the "uri" value of the Document Grounding Service Key in step 2.7 and add the path "pipeline/api/v1/pipeline". We need to pass the following parameters as part of the Body:
 ```
 {
     "type": "MSSharePoint"
@@ -161,6 +161,6 @@ After a successful call, the response will return a "pipelineId".
 
 ## <a name="summary"></a>Summary
 
-You set up a SharePoint destination in BTP, provisioned the Document Grounding Service with Cloud Identity Services, and generated the required keys and certificates. With Bruno, you imported the API collection, obtained an OAuth token, and created a SharePoint ingestion pipeline via the Data Ingestion API. The environment is now ready to ingest content and start testing Joule.
+You set up a SharePoint Destination in BTP, provisioned the Document Grounding Service with Cloud Identity Services, and generated the required keys and certificates. With Bruno, you imported the API collection, obtained an OAuth token, and created a SharePoint ingestion pipeline via the Data Ingestion API. The environment is now ready to ingest content and start testing Joule.
 
 Continue to - [Exercise 4 - Test Joule Standalone](../ex4/README.md)
