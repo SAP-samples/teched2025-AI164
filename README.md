@@ -1,4 +1,4 @@
-# Session ID - Session Title
+# AI164 - Getting started with Joule: Provisioning and Contextualization
 
 ## Description
 
@@ -6,7 +6,7 @@ This repository contains the material for the SAP TechEd 2025 session called Ses
 
 ## Overview
 
-This session introduces attendees to...
+Get hands-on experience with onboarding, provisioning, and contextualization for Joule technology. Guided by SAP experts, you can walk through the current steps involved in activating and grounding Joule in your business context—while learning what’s coming next to simplify and automate the process.
 
 ## Requirements
 
