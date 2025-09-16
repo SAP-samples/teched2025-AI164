@@ -14,24 +14,36 @@ The requirements to follow the exercises in this repository are...
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
+- [Exercise 1 - Prepare the BTP Subaccount](exercises/ex1/)
+    - [Step 1 - Log in to BTP](exercises/ex1#step1)
+    - [Step 2 - Create a Subaccount](exercises/ex1#step2)
+    - [Step 3 - Assign Entitlements to your Subaccount](exercises/ex1#step3)
+    - [Step 4 - Establish Trust to the Custom Application IAS Tenant](exercises/ex1#step4)
+    - [Summary](exercises/ex1#summary)
+- [Exercise 2 - Run the Joule Booster](exercises/ex2/)
+    - [Step 1 - Start the Booster](exercises/ex2#step1)
+    - [Step 2 - Check Prerequisites](exercises/ex2#step2)
+    - [Step 3 - Set Up Subaccount](exercises/ex2#step3)
+    - [Step 4 - Select Integrations](exercises/ex2#step4)
+    - [Step 5 - Select Capabilities](exercises/ex2#step5)
+    - [Step 6 - Set Up Integrations](exercises/ex2#step6)
+    - [Step 7 - Review and Execute](exercises/ex2#step7)
+    - [Summary](exercises/ex2#summary)
+- [Exercise 3 - Set Up Document Grounding](exercises/ex3/)
+    - [Step 1 - Create Destination](exercises/ex3#step1)
+    - [Step 2 - Create Document Grounding Service](exercises/ex3#step2)
+    - [Step 3 - Prepare Key and Certificate File](exercises/ex3#step3)
+    - [Step 4 - Setup Bruno](exercises/ex3#step4)
+    - [Step 5 - Execute API Calls](exercises/ex3#step5)
+    - [Summary](exercises/ex3#summary)
+- [Exercise 4 - Test Joule Standalone](exercises/ex4/)
+    - [Step 1 - Initial Login to Joule](exercises/ex4#step1)
+    - [Step 2 - Create a Role Collection and Assign it to Your User](exercises/ex4#step2)
+    - [Step 3 - Re-login to Joule and Start Testing](exercises/ex4#step3)
+    - [Summary](exercises/ex4#summary)
   
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+ 
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.

@@ -2,7 +2,7 @@
 
 In this exercise, you will learn how to run the Joule Booster to install Joule into a Subaccount. After completing these steps you will have a Subaccount with Joule installed.
 
-## Step 1: Start the Booster
+## <a name="step1"></a>Step 1: Start the Booster
 
 To begin, we need to launch the Joule Booster from the BTP Global Account.  
 Navigate to the BTP Global Account Level to access the Joule Booster:
@@ -15,7 +15,7 @@ Navigate to the BTP Global Account Level to access the Joule Booster:
 3. Select the Booster "Setting up Joule" and click "Start".
    <br>![](/exercises/ex2/images/07_02_joule_booster.png)
 
-## Step 2: Check Prerequisites
+## <a name="step2"></a>Step 2: Check Prerequisites
 The booster will automatically check if all prerequisites are met:
 1. The system will verify:
    - Checking Authorizations: DONE
@@ -25,7 +25,7 @@ The booster will automatically check if all prerequisites are met:
      
 2. Once all prerequisites show as "DONE", click "Next" to proceed.
 
-## Step 3: Set Up Subaccount
+## <a name="step3"></a>Step 3: Set Up Subaccount
 
 Configure the subaccount settings for the Joule installation:
 
@@ -39,7 +39,7 @@ Configure the subaccount settings for the Joule installation:
 2. Click "Next" to continue.
 
 
-## Step 4: Select Integrations
+## <a name="step4"></a>Step 4: Select Integrations
 
 Choose the integration settings for Joule:
 1. In the "Select Integrations" step:
@@ -49,7 +49,7 @@ Choose the integration settings for Joule:
 
 2. Click "Next" to proceed.
 
-## Step 5: Select Capabilities
+## <a name="step5"></a>Step 5: Select Capabilities
 
 Configure the capabilities for your Joule installation:
 
@@ -57,7 +57,7 @@ Configure the capabilities for your Joule installation:
 
 <br>![](/exercises/ex2/images/07_06_joule_booster.png)
 
-## Step 6: Set Up Integrations
+## <a name="step6"></a>Step 6: Set Up Integrations
 
 Complete the integration setup:
 
@@ -69,7 +69,7 @@ Complete the integration setup:
 2. The system will automatically configure these settings. Click "Next" to proceed to the final review.
    <br>![](/exercises/ex2/images/07_07_joule_booster.png)
 
-## Step 7: Review and Execute
+## <a name="step7"></a>Step 7: Review and Execute
 
 Review all settings and execute the booster:
 
@@ -86,7 +86,7 @@ Wait for the success confirmation message indicating that Joule has been success
 <br>![](/exercises/ex2/images/07_09_joule_booster.png)
 
 
-## Summary
+## <a name="summary"></a>Summary
 
 You have successfully run the Joule Booster and installed Joule into your subaccount. The booster has configured all necessary services, created the required space, and set up Joule for use. You can now access Joule through your BTP subaccount and begin exploring its AI capabilities.
 

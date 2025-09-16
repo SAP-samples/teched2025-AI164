@@ -1,9 +1,9 @@
-# Excercise 3: Setup Document Grounding
+# Excercise 3: Set Up Document Grounding
 
 In this exercise, you will learn how to setup the Grounding Service and the data repository integration. Once this steps are completed, you can ingest your content and start testing Joule.
 
 
-## Step 1: Create Destination
+## <a name="step1"></a>Step 1: Create Destination
 
 Navigate to the BTP Subaccount Account Level.
 
@@ -21,7 +21,7 @@ Navigate to **Global Subaccount Level > Destinations**.
 4. The destination needs to be populated with the following fields: Name, URL, Client ID, Client Secret, Token Service URL.
 <br>![](/exercises/ex3/images/08_04_destination_creation.png)
 
-## Step 2: Create Document Grounding Service
+## <a name="step2"></a>Step 2: Create Document Grounding Service
 
 Next, we want to subscribe to the Document Grounding Service and create a service key. We can do that by following these steps:
 
@@ -75,7 +75,7 @@ Next, we want to subscribe to the Document Grounding Service and create a servic
 
 
 
-## Step 3: Prepare Key and Certificate File
+## <a name="step3"></a>Step 3: Prepare Key and Certificate File
 
 In this step, we will use Visual Studio Code to make changes on the certificate file so that we can properly use it inside Bruno in Step 5.
 
@@ -101,7 +101,7 @@ In this step, we will use Visual Studio Code to make changes on the certificate 
 
 
 
-## Step 4: Setup Bruno
+## <a name="step4"></a>Step 4: Setup Bruno
 
 In this step we will use Bruno to import the role collection for the Data Ingestion API.
 
@@ -111,7 +111,7 @@ In this step we will use Bruno to import the role collection for the Data Ingest
 2. Choose **Bruno Collection** and select the file [bruno_collection_document_grounding.json](./bruno_collection_document_grounding.json) from this GitHub repository.
 <br>![](/exercises/ex3/images/11_02_bruno_setup.png)
 
-## Step 5: Execute API Calls
+## <a name="step5"></a>Step 5: Execute API Calls
 
 Now, we will use the collection in Bruno to create the the pipelines for the data ingestion.
 
@@ -159,7 +159,7 @@ After a successful call, the response will return a "pipelineId".
 
 
 
-## Summary
+## <a name="summary"></a>Summary
 
 You set up a SharePoint destination in BTP, provisioned the Document Grounding Service with Cloud Identity Services, and generated the required keys and certificates. With Bruno, you imported the API collection, obtained an OAuth token, and created a SharePoint ingestion pipeline via the Data Ingestion API. The environment is now ready to ingest content and start testing Joule.
 

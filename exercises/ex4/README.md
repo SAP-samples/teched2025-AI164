@@ -3,7 +3,7 @@
 In this exercise, you will learn how to navigate to the Joule standalone service, create a role collection to include the Joule end_user Role and assign that to a newly created shadow user.
 
 
-## Step 1: Initial Login to Joule
+## <a name="step1"></a>Step 1: Initial Login to Joule
 
 Navigate to the BTP Subaccount Account Level.
 
@@ -21,7 +21,7 @@ Navigate to **Global Subaccount Level > Instances and Subscriptions**.
 4. Append /joule to the URL.
 <br>![](/exercises/ex4/images/14_04_btp_joule_test.png)
 
-## Step 2: Create a Role Collection and Assgin it to your user
+## <a name="step2"></a>Step 2: Create a Role Collection and Assign it to Your User
 
 Navigate to the BTP Subaccount Account Level.
 
@@ -46,7 +46,7 @@ Navigate to the BTP Subaccount Account Level.
 7. Choose "Assign Role Collection" - note this can be hidden in a context menu "...". Select the "Joule" Role Collection and click "Add".
 <br>![](/exercises/ex4/images/14_11_btp_joule_test.png)
 
-## Step 3: Re-login to Joule and start testing
+## <a name="step3"></a>Step 3: Re-login to Joule and Start Testing
 
 Navigate again to the Joule Application as in step 
 
@@ -61,5 +61,5 @@ Navigate again to the Joule Application as in step
 
 
 
-## Summary
+## <a name="summary"></a>Summary
 You have successfully enabled your user to access the Joule Webclient and interact with Joule. With the exercises completed, you can now explore Joule further. Use this opportunity to chat with Joule and discover its features and capabilities.

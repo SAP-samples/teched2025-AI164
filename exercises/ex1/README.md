@@ -1,8 +1,8 @@
-# Excercise 1: Prepare the Subaccount
+# Excercise 1: Prepare the BTP Subaccount
 
 In this exercise, you will learn how to prepare a subaccount to subsequently setup Joule and Document Grounding. After completing these steps you will have a Subaccount with all the needed entitlements, you established trust to a IAS tenant and are ready to execute the Joule Booster.
 
-## Step 1: Login to BTP
+## <a name="step1"></a>Step 1: Log in to BTP
 
 For the live excercise at TechEd 2025, we provide a BTP Landscape to try on. The first step is to successfully login via the custom platform IDP following this link:
 
@@ -19,7 +19,7 @@ When first logging in you will be redirected to a IAS login screen similar to th
 <br>![](/exercises/ex1/images/01_btp_overview.png)
 
 
-## Step 2: Create a Subaccount
+## <a name="step2"></a>Step 2: Create a Subaccount
 
 Next up, we want to create a Subaccout. For that on the Global Account > Account Explorer:
 
@@ -36,7 +36,7 @@ Next up, we want to create a Subaccout. For that on the Global Account > Account
 This will take a few seconds and you will be prompted once done.
 
 
-## Step 3: Assign Entitlements to your BTP Subaccount
+## <a name="step3"></a>Step 3: Assign Entitlements to your Subaccount
 
 Next up, we want to assign the Entitlement for Joule and Document Grounding to the newly created Subaccount. We can do that by:
 
@@ -74,7 +74,7 @@ Next up, we want to assign the Entitlement for Joule and Document Grounding to t
    <br>![](/exercises/ex1/images/05_09_btp_subaccount_entity_assignements.png)
    
 
-## Step 4: Establish Trust to the custom application IAS tenant
+## <a name="step4"></a>Step 4: Establish Trust to the Custom Application IAS Tenant
 
 Now we will go ahead navigate to our newly created Subaccount via the Account Explorer. 
 
@@ -97,7 +97,7 @@ Now we will go ahead navigate to our newly created Subaccount via the Account Ex
    <br>![](/exercises/ex1/images/06_05_btp_trust_config.png)
 
 
-## Summary
+## <a name="summary"></a>Summary
 
 Now that you have a Subaccount with the Joule and Document Grounding Entitlement - successfully trusted the custom IAS and are ready to run the Joule Booster in Exercise 2.  
 Continue to - [Exercise 2 - Run the Joule Booster](../ex2/README.md)
