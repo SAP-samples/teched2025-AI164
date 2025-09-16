@@ -101,7 +101,7 @@ In this step, we will use Visual Studio Code to make changes on the certificate 
 
 
 
-## <a name="step4"></a>Step 4: Setup Bruno
+## <a name="step4"></a>Step 4: Set Up Bruno
 
 In this step we will use Bruno to import the role collection for the Data Ingestion API.
 

@@ -34,13 +34,13 @@ The requirements to follow the exercises in this repository are...
     - [Step 1 - Create Destination](exercises/ex3#step1)
     - [Step 2 - Create Document Grounding Service](exercises/ex3#step2)
     - [Step 3 - Prepare Key and Certificate File](exercises/ex3#step3)
-    - [Step 4 - Setup Bruno](exercises/ex3#step4)
+    - [Step 4 - Set Up Bruno](exercises/ex3#step4)
     - [Step 5 - Execute API Calls](exercises/ex3#step5)
     - [Summary](exercises/ex3#summary)
 - [Exercise 4 - Test Joule Standalone](exercises/ex4/)
-    - [Step 1 - Initial Login to Joule](exercises/ex4#step1)
+    - [Step 1 - Log In to Joule](exercises/ex4#step1)
     - [Step 2 - Create a Role Collection and Assign it to Your User](exercises/ex4#step2)
-    - [Step 3 - Re-login to Joule and Start Testing](exercises/ex4#step3)
+    - [Step 3 - Log In to Joule Again and Start Testing](exercises/ex4#step3)
     - [Summary](exercises/ex4#summary)
   
  
