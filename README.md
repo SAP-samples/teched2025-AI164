@@ -10,7 +10,7 @@ Get hands-on experience with onboarding, provisioning, and contextualization for
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are a general understanding of concepts like BTP administration, system integrations and SAP Joule.
 
 ## Exercises
 
