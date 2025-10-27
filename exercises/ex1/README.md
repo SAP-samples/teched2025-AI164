@@ -96,6 +96,7 @@ Now we will go ahead navigate to our newly created Subaccount via the Account Ex
 5. Click "Finish" to complete the process.
    <br>![](/exercises/ex1/images/06_05_btp_trust_config.png)
 
+**Note:** Joule needs to integrate seamlessly with other SAP solutions, which requires a consistent and unified user login experience between the hosting application and the embedded Joule interface. This is where establishing trust with a custom IAS tenant becomes essential. By connecting Joule to that IAS as the identity provider, all user logins are handled centrally, allowing Joule to recognize the authenticated user. This setup is crucial because Joule operates on behalf of the user, and its backend access must align with the user’s roles and authorizations. For this exercise we provide the IAS tenant to select - in your own landscape you would choose the IAS tenant your SAP cloud applications are connected to.
 
 ## <a name="summary"></a>Summary
 
