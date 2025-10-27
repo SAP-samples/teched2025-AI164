@@ -8,13 +8,25 @@ This repository contains the material for the SAP TechEd 2025 session called AI1
 
 Get hands-on experience with onboarding, provisioning, and contextualization for Joule technology. Guided by SAP experts, you can walk through the current steps involved in activating and grounding Joule in your business context—while learning what’s coming next to simplify and automate the process.
 
+## Scenario
+
+<img width="1736" height="843" alt="image" src="https://github.com/user-attachments/assets/75e3bc90-fab9-4805-bf2a-f0ed314bec7f" />
+
+
+Imagine you are a system administrator. Your company is running multiple SAP systems, and you’ve just learned about Joule, the digital assistant designed to co-pilot your business. But how can you integrate Joule into your company’s landscape?
+
+You would start by setting up an instance of Joule on SAP BTP and connecting it with your systems. This exercise will show you, in detail, how the provisioning process for Joule works. We’ll go through a simplified example of setting up Joule and Document Grounding, with the goal of connecting Joule to your company’s knowledge base.
+
+For this purpose, we’ll use the Document Grounding Service that is set up alongside Joule. This service allows you to connect multiple knowledge sources, in particular Microsoft SharePoint, which is widely used across enterprises as a central repository for documents.
+
+All of this setup takes place directly on SAP BTP, where you will have full control over the entire administration process from end to end. The final goal is to have Joule fully provisioned and connected to SharePoint, contextualized with your company-specific knowledge.
+
 ## Requirements
 
 The requirements to follow the exercises in this repository are a general understanding of concepts like BTP administration, system integrations and SAP Joule.
 
 ## Exercises
 
-- [Getting Started](exercises/ex0/)
 - [Exercise 1 - Prepare the BTP Subaccount](exercises/ex1/)
     - [Step 1 - Log in to BTP](exercises/ex1#step1)
     - [Step 2 - Create a Subaccount](exercises/ex1#step2)
