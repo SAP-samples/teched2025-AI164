@@ -5,7 +5,10 @@
     {
       "type": "http",
       "name": "Create Pipeline",
+      "filename": "Create Pipeline.bru",
       "seq": 4,
+      "settings": {},
+      "tags": [],
       "request": {
         "url": "https://mtls.rage.c-7e3b918.kyma.ondemand.com/pipeline/api/v1/pipeline",
         "method": "POST",
@@ -15,12 +18,14 @@
           "mode": "json",
           "json": "{\n  \"type\": \"MSSharePoint\",\n  \"configuration\": {\n    \"destination\": \"SHAREPOINT_API\",\n    \"sharePoint\": {\n      \"site\": {\n        \"name\": \"210637\",\n        \"includePaths\": [\n          \"/teched\"\n        ]\n      }\n    }\n  }\n}",
           "formUrlEncoded": [],
-          "multipartForm": []
+          "multipartForm": [],
+          "file": []
         },
         "script": {},
         "vars": {},
         "assertions": [],
         "tests": "",
+        "docs": "",
         "auth": {
           "mode": "bearer",
           "bearer": {
@@ -32,7 +37,10 @@
     {
       "type": "http",
       "name": "Get Pipelines",
+      "filename": "Get Pipelines.bru",
       "seq": 3,
+      "settings": {},
+      "tags": [],
       "request": {
         "url": "https://mtls.rage.c-7e3b918.kyma.ondemand.com/pipeline/api/v1/pipeline",
         "method": "GET",
@@ -41,12 +49,14 @@
         "body": {
           "mode": "none",
           "formUrlEncoded": [],
-          "multipartForm": []
+          "multipartForm": [],
+          "file": []
         },
         "script": {},
         "vars": {},
         "assertions": [],
         "tests": "",
+        "docs": "",
         "auth": {
           "mode": "bearer",
           "bearer": {
@@ -58,11 +68,20 @@
     {
       "type": "http",
       "name": "Get Token",
+      "filename": "Get Token.bru",
       "seq": 2,
+      "settings": {},
+      "tags": [],
       "request": {
         "url": "https://a8hrq53ve.accounts.ondemand.com/oauth2/token?grant_type=client_credentials&client_id=0dfb6042-a5c2-4b87-b4ce-95b166eb9e1c",
         "method": "POST",
-        "headers": [],
+        "headers": [
+          {
+            "name": "content-type",
+            "value": "application/x-www-form-urlencoded",
+            "enabled": true
+          }
+        ],
         "params": [
           {
             "name": "grant_type",
@@ -80,12 +99,14 @@
         "body": {
           "mode": "none",
           "formUrlEncoded": [],
-          "multipartForm": []
+          "multipartForm": [],
+          "file": []
         },
         "script": {},
         "vars": {},
         "assertions": [],
         "tests": "",
+        "docs": "",
         "auth": {
           "mode": "none"
         }
