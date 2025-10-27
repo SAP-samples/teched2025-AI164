@@ -1,6 +1,6 @@
 # Exercise 3: Set Up Document Grounding
 
-In this exercise, you will learn how to setup the Grounding Service and the data repository integration. Once these steps are completed, you can ingest your content and start testing Joule.
+In this exercise, you will learn how to set up the Grounding Service and connect it to Microsoft SharePoint. Document Grounding supports several document repositories out of the box, and SharePoint is among the most widely used across enterprises today. Once you’ve completed these steps, you can start testing Joule and receive contextualized answers based on your company’s specific knowledge documents.
 
 
 ## <a name="step1"></a>Step 1: Create Destination
