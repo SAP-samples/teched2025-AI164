@@ -61,7 +61,13 @@ Navigate again to the Joule Application as in step
 3. Now append **/joule** to the application url and you can start testing Joule.
 <br>![](/exercises/ex4/images/14_14_btp_joule_test.png)
 
+4. Try out the prompts:
+5. 
+„Can I bring my dog to work?“ 
+„What is the dresscode in our office?“
+<br>![](/exercises/ex4/images/14_15_btp_joule_test.png)
 
+**Note:** The provided SharePoint repository includes a sample document outlining an employee policy for Giggle Tec, a company with distinct internal policies. You can observe Joule generating answers based on this document — even referencing the original source through a link.
 
 ## <a name="summary"></a>Summary
 You have successfully enabled your user to access the Joule Webclient and interact with Joule. With the exercises completed, you can now explore Joule further. Use this opportunity to chat with Joule and discover its features and capabilities.
