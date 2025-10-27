@@ -51,12 +51,23 @@ Next, we want to subscribe to the Document Grounding Service and create a Servic
 <br>![](/exercises/ex3/images/13_09_btp_service_creation.png)
 
 9. In the parameters section, enter the following values, where we put in the name of the Document Grounding Service instance ("documentgrounding") from the second step of this exercise. Then, click on **create**.
+```
+{
+   "consumed-services":[
+      {
+         "service-instance-name":"documentgrounding"
+      }
+   ]
+}
+```
+
 <br>![](/exercises/ex3/images/13_10_btp_service_creation.png)
 
 10. Again, we need to create a Service Key for the Cloud Identity Services subscription. Select the three dots and then **Create Service Binding**.
+
 <br>![](/exercises/ex3/images/13_12_btp_service_creation.png)
 
-11. Choose a name for the key (here: "key") and specify the following parameters in JSON format:
+12. Choose a name for the key (here: "key") and specify the following parameters in JSON format:
 ```   
 {
     "credential-type": "X509_GENERATED",
