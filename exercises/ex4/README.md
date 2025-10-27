@@ -5,6 +5,8 @@ In this exercise, you will learn how to navigate to the Joule standalone service
 
 ## <a name="step1"></a>Step 1: Log In to Joule
 
+First, we need to ensure that a shadow user from our IAS is created in our BTP subaccount so that we can assign roles to it. To do this:
+
 Navigate to the BTP Subaccount Account Level.
 
 Navigate to **Global Subaccount Level > Instances and Subscriptions**.
