@@ -62,7 +62,6 @@ Navigate again to the Joule Application as in step
 <br>![](/exercises/ex4/images/14_14_btp_joule_test.png)
 
 4. Try out the prompts:
-5. 
 „Can I bring my dog to work?“ 
 „What is the dresscode in our office?“
 <br>![](/exercises/ex4/images/14_15_btp_joule_test.png)
