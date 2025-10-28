@@ -2,10 +2,20 @@
 
 In this exercise, you will learn how to set up the Grounding Service and connect it to Microsoft SharePoint. Document Grounding supports several document repositories out of the box, and SharePoint is among the most widely used across enterprises today. Once you’ve completed these steps, you can start testing Joule and receive contextualized answers based on your company’s specific knowledge documents.
 
+## <a name="step0"></a>Step 0: Download Destination
+
+The first step is to donwload the Destination from this Github. You will find it here https://github.com/SAP-samples/teched2025-AI164/blob/main/exercises/ex3/sharepoint_destination.zip Use the Download Icon as depicted in the Image to download the ZIP file onto your machine. 
+
+
 
 ## <a name="step1"></a>Step 1: Create Destination
 
 Navigate to the BTP Subaccount Account Level.
+<img width="1873" height="1059" alt="08_00_destination_creation" src="https://github.com/user-attachments/assets/de320a19-8c6b-47c9-9f39-53435129ad0d" />
+
+<img width="1382" height="766" alt="08_00_destination_extraction" src="https://github.com/user-attachments/assets/d2ff5375-720c-4c4a-8600-6bbbb04ec121" />
+
+<img width="374" height="164" alt="08_00_destination_download" src="https://github.com/user-attachments/assets/2eb75229-49e6-4629-b722-13b462c34c36" />
 
 Navigate to **Global Subaccount Level > Destinations**.
 
