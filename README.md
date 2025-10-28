@@ -10,7 +10,7 @@ Get hands-on experience with onboarding, provisioning, and contextualization for
 
 ## Scenario
 
-<img width="1736" height="843" alt="image" src="https://github.com/user-attachments/assets/75e3bc90-fab9-4805-bf2a-f0ed314bec7f" />
+<br>![](scenario_image.png)
 
 
 Imagine you are a system administrator. Your company is running multiple SAP systems, and you’ve just learned about Joule, the digital assistant designed to co-pilot your business. But how can you integrate Joule into your company’s landscape?
