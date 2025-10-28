@@ -7,15 +7,15 @@ In this exercise, you will learn how to set up the Grounding Service and connect
 The first step is to donwload the Destination from this Github. You will find it here https://github.com/SAP-samples/teched2025-AI164/blob/main/exercises/ex3/sharepoint_destination.zip 
 Use the Download Icon as depicted in the Image to download the ZIP file onto your machine. 
 
-<img width="1873" height="1059" alt="08_00_destination_creation" src="https://github.com/user-attachments/assets/de320a19-8c6b-47c9-9f39-53435129ad0d" />
+<br>![](/exercises/ex3/images/08_00_destination_creation.png)
 
 From there you now want to extract the ZIP file - the destination file is in it.
 
-<img width="1382" height="766" alt="08_00_destination_extraction" src="https://github.com/user-attachments/assets/d2ff5375-720c-4c4a-8600-6bbbb04ec121" />
+<br>![](/exercises/ex3/images/08_00_destination_extraction.png)
 
 To ensure only participants in the room have access to the Credential - we secured the ZIP file with a password. Use the password up on the projector in the room to unlock the ZIP file.
 
-<img width="374" height="164" alt="08_00_destination_download" src="https://github.com/user-attachments/assets/2eb75229-49e6-4629-b722-13b462c34c36" />
+<br>![](/exercises/ex3/images/08_00_destination_download.png)
 
 Now you successfully have the sharepoint_destination.json file on your machine ready for the next step.
 
