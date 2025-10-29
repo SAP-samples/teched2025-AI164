@@ -45,7 +45,7 @@ Navigate to the BTP Subaccount Account Level.
 6. Head over to the menu point "Users" and select the user with the UUID formatted user-id on the non-platform user IDP.
 <br>![](/exercises/ex4/images/14_10_btp_joule_test.png)
 
-7. Choose "Assign Role Collection" (this may be hidden in a context menu "..."). Select the "Joule" Role Collection and click "Add".
+7. Go to the Role Collections area, click on the three dots (…) next to the user, and choose "Assign Role Collection". Select the "Joule" Role Collection and click "Add".
 <br>![](/exercises/ex4/images/14_11_btp_joule_test.png)
 
 ## <a name="step3"></a>Step 3: Log In to Joule Again and Start Testing
