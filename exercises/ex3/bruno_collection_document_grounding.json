@@ -73,32 +73,24 @@
       "settings": {},
       "tags": [],
       "request": {
-        "url": "https://a8hrq53ve.accounts.ondemand.com/oauth2/token?grant_type=client_credentials&client_id=0dfb6042-a5c2-4b87-b4ce-95b166eb9e1c",
+        "url": "https://a8hrq53ve.accounts.ondemand.com/oauth2/token",
         "method": "POST",
-        "headers": [
-          {
-            "name": "content-type",
-            "value": "application/x-www-form-urlencoded",
-            "enabled": true
-          }
-        ],
-        "params": [
-          {
-            "name": "grant_type",
-            "value": "client_credentials",
-            "type": "query",
-            "enabled": true
-          },
-          {
-            "name": "client_id",
-            "value": "0dfb6042-a5c2-4b87-b4ce-95b166eb9e1c",
-            "type": "query",
-            "enabled": true
-          }
-        ],
+        "headers": [],
+        "params": [],
         "body": {
-          "mode": "none",
-          "formUrlEncoded": [],
+          "mode": "formUrlEncoded",
+          "formUrlEncoded": [
+            {
+              "name": "grant_type",
+              "value": "client_credentials",
+              "enabled": true
+            },
+            {
+              "name": "client_id",
+              "value": "0dfb6042-a5c2-4b87-b4ce-95b166eb9e1c",
+              "enabled": true
+            }
+          ],
           "multipartForm": [],
           "file": []
         },
