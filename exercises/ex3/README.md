@@ -4,7 +4,7 @@ In this exercise, you will learn how to set up the Grounding Service and connect
 
 ## <a name="step0"></a>Step 0: Download Destination
 
-The first step is to donwload the Destination from this Github. You will find it here https://github.com/SAP-samples/teched2025-AI164/blob/main/exercises/ex3/sharepoint_destination.zip 
+The first step is to download the Destination from this Github. You will find it here https://github.com/SAP-samples/teched2025-AI164/blob/main/exercises/ex3/sharepoint_destination.zip 
 Use the Download Icon as depicted in the Image to download the ZIP file onto your machine. 
 
 <br>![](/exercises/ex3/images/08_00_destination_creation.png)
