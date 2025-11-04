@@ -1,0 +1,130 @@
+{
+  "info": {
+    "name": "DocumentGrounding",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Pipeline",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "bearer",
+          "bearer": {
+            "key": "token",
+            "value": "",
+            "type": "string"
+          }
+        },
+        "description": "",
+        "url": {
+          "raw": "https://mtls.rage.c-7e3b918.kyma.ondemand.com/pipeline/api/v1/pipeline",
+          "protocol": "https",
+          "host": [
+            "mtls",
+            "rage",
+            "c-7e3b918",
+            "kyma",
+            "ondemand",
+            "com"
+          ],
+          "path": [
+            "pipeline",
+            "api",
+            "v1",
+            "pipeline"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"type\": \"MSSharePoint\",\n  \"configuration\": {\n    \"destination\": \"SHAREPOINT_API\",\n    \"sharePoint\": {\n      \"site\": {\n        \"name\": \"210637\",\n        \"includePaths\": [\n          \"/teched\"\n        ]\n      }\n    }\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Get Pipelines",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "bearer",
+          "bearer": {
+            "key": "token",
+            "value": "",
+            "type": "string"
+          }
+        },
+        "description": "",
+        "url": {
+          "raw": "https://mtls.rage.c-7e3b918.kyma.ondemand.com/pipeline/api/v1/pipeline",
+          "protocol": "https",
+          "host": [
+            "mtls",
+            "rage",
+            "c-7e3b918",
+            "kyma",
+            "ondemand",
+            "com"
+          ],
+          "path": [
+            "pipeline",
+            "api",
+            "v1",
+            "pipeline"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "Get Token",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "https://a8hrq53ve.accounts.ondemand.com/oauth2/token?grant_type=client_credentials&client_id=0dfb6042-a5c2-4b87-b4ce-95b166eb9e1c",
+          "protocol": "https",
+          "host": [
+            "a8hrq53ve",
+            "accounts",
+            "ondemand",
+            "com"
+          ],
+          "path": [
+            "oauth2",
+            "token"
+          ],
+          "query": [
+            {
+              "key": "grant_type",
+              "value": "client_credentials"
+            },
+            {
+              "key": "client_id",
+              "value": "0dfb6042-a5c2-4b87-b4ce-95b166eb9e1c"
+            }
+          ],
+          "variable": []
+        }
+      }
+    }
+  ],
+  "variable": []
+}
