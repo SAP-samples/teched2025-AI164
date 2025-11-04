@@ -130,6 +130,8 @@ In this step, we will use Visual Studio Code to make changes on the certificate 
 
 ## <a name="step4"></a>Step 4: Set Up Bruno
 
+*!!Note - the Bruno collection step currently is failing - Use the DocumentGrounding_formatpostman.json file and import it as type Postman Collection in your Bruno!!!!!*
+
 In this step we will use Bruno to import the role collection for the Data Ingestion API.
 
 1. Select the three dots next to the Bruno icon on the left side of the screen. Click on **Import Collection**. 
