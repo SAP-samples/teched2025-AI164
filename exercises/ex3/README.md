@@ -176,7 +176,7 @@ client_id: <client id from the service key>
             "site": {
                 "name": "210637",
                 "includePaths": [
-                 "*/teched"
+                 "/teched"
                 ]
             }
         }
